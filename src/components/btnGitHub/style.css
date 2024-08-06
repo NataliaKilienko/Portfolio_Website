@@ -1,0 +1,48 @@
+.btn-outline {
+    display: flex;
+    column-gap: 10px;
+    align-items: center;
+    height: 48px;
+    padding: 12px 20px;
+    border-radius: 5px;
+    border: 1px solid #000;
+    background-color: #fff;
+    color: #000;
+    overflow: hidden;
+    position: relative;
+    transition: color 0.5s ease, transform 0.5s ease;
+}
+
+.btn-outline::before {
+    content: "";
+    position: absolute;
+    bottom: -100px;
+    left: 50%;
+    width: 200%;
+    height: 100px;
+    background-color: #5c62ec;
+    border-radius: 40%;
+    transition: bottom 1s ease;
+    z-index: 0;
+    transform: translateX(-50%);
+}
+
+.btn-outline:hover::before {
+    bottom: 0;
+}
+
+.btn-outline:hover {
+    color: #fff;
+    transform: translateY(-2px);
+}
+
+.btn-outline .btn-outline__icon {
+    transition: transform 0.5s ease;
+    z-index: 1;
+}
+
+.btn-outline span {
+    z-index: 1;
+    position: relative;
+}
+
