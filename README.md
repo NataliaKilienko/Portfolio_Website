@@ -8,32 +8,39 @@ This project is a personal portfolio website showcasing my work as a Front-End E
 To install and run this project locally, follow these steps:
 
 1. Clone the repository:
-   ```bash
-   git clone https://github.com/nataliakilienko/Portfolio_Website.git
-
+    ```bash
+    git clone https://github.com/nataliakilienko/Portfolio_Website.git
+    ```
 2. Navigate to the project directory:
-   cd Portfolio_Website
-
+    ```bash
+    cd Portfolio_Website
+    ```
 3. Install the dependencies:
-   npm install
-
+    ```bash
+    npm install
+    ```
 ## Usage
 
 To start the development server, run:
+   ```bash
    npm start
-
+   ```
+    
 This will run the app in development mode. Open http://localhost:3000 to view it in your browser.
 
 
 To build the app for production, run:
+   ```bash
    npm run build
+   ```
 
 This will create a production-ready build of the app in the build folder.
 
 
 To deploy the app to GitHub Pages, run:
+   ```bash
    npm run deploy
-
+   ```
 
 ## Features
 
