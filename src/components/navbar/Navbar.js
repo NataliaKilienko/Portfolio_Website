@@ -27,8 +27,6 @@ const Navbar = () => {
             <span>Front-End Engineer</span> portfolio
           </NavLink>
 
-          <BtnDarkMode />
-
           <div className="burger-menu" onClick={toggleMenu}>
             <div className={`burger-icon ${isMenuOpen ? "open" : ""}`}>
               <span></span>
@@ -49,7 +47,6 @@ const Navbar = () => {
                 Home
               </NavLink>
             </li>
-
             <li className="nav-list__item">
               <NavLink
                 to="/projects"
@@ -71,6 +68,9 @@ const Navbar = () => {
               >
                 Contacts
               </NavLink>
+            </li>
+            <li className="nav-list__item nav-list__item--dark-mode">
+              <BtnDarkMode />
             </li>
           </ul>
         </div>

@@ -52,10 +52,10 @@ To deploy the app to GitHub Pages, run:
 ## Technologies
 
 - React: JavaScript library for building user interfaces.
-- CSS/SCSS: Styling the components and layout.
+- CSS: Styling the components and layout.
 - React Icons: Icon library for React.
 - React Router: For handling navigation between pages.
 - Local Storage: Used for dark mode state persistence.
-
+- AOS: Animate on scroll library for adding animations.
 
 Made with ❤️ by Nataliia Kiliienko.
