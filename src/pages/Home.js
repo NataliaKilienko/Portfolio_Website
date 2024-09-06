@@ -17,6 +17,9 @@ import {
   FaDesktop,
   FaBootstrap,
   FaReact,
+  FaFigma,
+  FaCss3Alt,
+  FaTachometerAlt,
 } from "react-icons/fa";
 
 const skills = [
@@ -80,6 +83,21 @@ const skills = [
     name: "jQuery",
     description: "Experience with jQuery library for DOM manipulation.",
     icon: FaJsSquare,
+  },
+  {
+    name: "Design Tools",
+    description: "Experience with design tools like Figma for prototyping.",
+    icon: FaFigma,
+  },
+  {
+    name: "CSS Frameworks (Tailwind, Bulma)",
+    description: "Knowledge of modern CSS frameworks like Tailwind and Bulma.",
+    icon: FaCss3Alt,
+  },
+  {
+    name: "Performance Optimization",
+    description: "Experience optimizing web applications for performance.",
+    icon: FaTachometerAlt,
   },
 ];
 
