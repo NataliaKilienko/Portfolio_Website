@@ -179,12 +179,32 @@ body {
     box-shadow: var(--box-shadow);
     width: 100%;
     transition: transform 0.5s ease, box-shadow 0.5s ease;
+    perspective: 1000px; 
 }
 
 .intro:hover,
 .content-list__item:hover {
-    transform: translateY(-5px);
-    box-shadow: 0px 5px 35px rgba(0, 0, 0, 0.2);
+    transform: translateY(-5px) rotateX(10deg); 
+    box-shadow: 0px 10px 40px rgba(0, 0, 0, 0.5);
+}
+
+.skill-icon {
+    font-size: 40px;
+    transition: transform 0.4s ease;
+    animation: pulse 2s infinite; 
+}
+
+.content-list__item:hover .skill-icon {
+    transform: scale(1.2) rotate(10deg); 
+    filter: brightness(1.1); 
+}
+
+.content-list__item p {
+    transition: transform 0.4s ease;
+}
+
+.content-list__item:hover p {
+    transform: translateY(-3px); 
 }
 
 .content-list__item p {
@@ -194,6 +214,18 @@ body {
 
 .content-list__item strong {
     color: var(--accent);
+}
+
+@keyframes pulse {
+    0% {
+        transform: scale(1);
+    }
+    50% {
+        transform: scale(1.05);
+    }
+    100% {
+        transform: scale(1);
+    }
 }
 
 @media (max-width: 768px) {
@@ -213,6 +245,11 @@ body {
     .content-list__item {
         font-size: 16px;
     }
+
+    .skill-icon {
+        font-size: 30px;
+        animation: none; 
+    }
 }
 
 /* Projects */
@@ -225,7 +262,7 @@ body {
 }
 
 .project {
-    max-width: 370px;
+    width: 370px;
     height: 300px;
     background-color: var(--project-card-bg);
     box-shadow: var(--box-shadow);

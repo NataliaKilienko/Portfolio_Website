@@ -20,6 +20,8 @@ import {
   FaFigma,
   FaCss3Alt,
   FaTachometerAlt,
+  FaCodeBranch,
+  FaUniversalAccess,
 } from "react-icons/fa";
 
 const skills = [
@@ -29,9 +31,19 @@ const skills = [
     icon: FaHtml5,
   },
   {
-    name: "JavaScript(ES6+) & React",
-    description: "Strong knowledge with a focus on dynamic user interfaces.",
+    name: "JavaScript(ES6+)",
+    description: "Strong knowledge of JavaScript and its modern ES6+ features.",
+    icon: FaJsSquare,
+  },
+  {
+    name: "React",
+    description: "Proficient in building dynamic user interfaces using React.",
     icon: FaReact,
+  },
+  {
+    name: "TypeScript",
+    description: "Experience with TypeScript for static typing in JavaScript projects.",
+    icon: FaCodeBranch,
   },
   {
     name: "Responsive Web Design",
@@ -99,6 +111,11 @@ const skills = [
     description: "Experience optimizing web applications for performance.",
     icon: FaTachometerAlt,
   },
+  {
+    name: "Accessibility (A11y)",
+    description: "Basic knowledge of web accessibility standards (WCAG).",
+    icon: FaUniversalAccess, 
+  } 
 ];
 
 const Home = () => {
@@ -126,7 +143,7 @@ const Home = () => {
             <p>
               As a front-end developer, I am passionate about crafting seamless
               and captivating web experiences. I specialize in using HTML, CSS,
-              JavaScript, and React to develop dynamic, responsive applications.
+              JavaScript, TypeScript and React to develop dynamic, responsive applications.
               With a keen eye for design and a commitment to usability, I ensure
               that every project I undertake is both visually appealing and
               highly functional.
