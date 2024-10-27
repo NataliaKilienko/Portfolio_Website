@@ -1,4 +1,6 @@
+import React from 'react';
 import "./style.css";
+import DownloadCVButton from '../../components/downloadCVButton/DownloadCVButton';
 
 const Header = ({ sectionRef }) => {
   const scrollToSection = () => {
@@ -17,6 +19,7 @@ const Header = ({ sectionRef }) => {
         <div className="header__text">
           <p>with passion for learning and creating.</p>
         </div>
+        <DownloadCVButton />
         <div className="scroll-button" onClick={scrollToSection}>
           <div className="scroll-indicator">
             <div className="scroll-indicator__circle"></div>
