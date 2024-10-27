@@ -4,7 +4,7 @@ import "./style.css";
 const DownloadCVButton = () => {
     const handleDownload = () => {
         const link = document.createElement('a');
-        link.href = '/CV.pdf'; 
+        link.href = `${process.env.PUBLIC_URL}/CV.pdf`;
         link.download = 'Nataliia_Kiliienko_CV.pdf';
         document.body.appendChild(link);
         link.click();
