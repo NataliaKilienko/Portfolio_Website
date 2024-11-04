@@ -31,7 +31,14 @@ const Project = () => {
           />
 
           <div className="project-details__desc">
-            <p>Skills: {project.skills}</p>
+            <p>Skills:</p>
+            <div className="skills-list">
+              {project.skills.split(", ").map((skill, index) => (
+                <span key={index} className="skill-item">
+                  {skill}
+                </span>
+              ))}
+            </div>
           </div>
 
           {project.gitHubLink && <BtnGitHub link={project.gitHubLink} />}

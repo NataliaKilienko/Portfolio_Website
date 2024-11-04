@@ -12,9 +12,11 @@ const DownloadCVButton = () => {
       };
       
   return (
-    <button className="download-cv-button" onClick={handleDownload}>
-      Download CV
-    </button>
+    <div className="download-cv-button-wrapper">
+      <button className="download-cv-button" onClick={handleDownload}>
+        Download CV
+      </button>
+    </div>
   );
 };
 

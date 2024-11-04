@@ -6,12 +6,14 @@ import project03Big from "./../img/projects/03-big.jpg";
 import project03Small from "./../img/projects/03-small.jpg";
 import project04Big from "./../img/projects/04-big.jpg";
 import project04Small from "./../img/projects/04-small.jpg";
+import project05Big from "./../img/projects/05-big.jpg";
+import project05Small from "./../img/projects/05-small.jpg";
 
 
 const projects = [
   {
     title: "Cryptoplace",
-    skills: "React.js, REST API, JavaScript, API Testing, JSX, GSAP Animations, CSS, CoinGecho API, CryptoPanic API, Single Page Applications",
+    skills: "React.js, REST API, JavaScript, API Testing, JSX, GSAP Animations, CSS3, CoinGecho API, CryptoPanic API, Single Page Applications",
     img: project04Small,
     imgBig: project04Big,
     gitHubLink: "https://github.com/NataliaKilienko/Cryptoplace",
@@ -22,6 +24,13 @@ const projects = [
     img: project01Small,
     imgBig: project01Big,
     gitHubLink: "https://github.com/NataliaKilienko/Solis_Web_Mockup",
+  },
+  {
+    title: "To-Do List",
+    skills: "React.js, TypeScript, TSX, uuid, CSS3, Google Fonts",
+    img: project05Small,
+    imgBig: project05Big,
+    gitHubLink: "https://github.com/NataliaKilienko/ToDo_List_React_TypeScript",
   },
   {
     title: "Monticello Web Mockup",
