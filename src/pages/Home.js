@@ -3,120 +3,12 @@ import Header from "./../components/header/Header";
 import StarsCanvas from "./../components/canvas/StarsCanvas";
 import AOS from "aos";
 import "aos/dist/aos.css";
+import skills from "../helpers/skillsData";
 import {
-  FaHtml5,
-  FaJsSquare,
-  FaMobileAlt,
-  FaGitAlt,
-  FaBug,
-  FaGlobe,
   FaCode,
-  FaTools,
-  FaNodeJs,
-  FaNetworkWired,
   FaDesktop,
-  FaBootstrap,
-  FaReact,
-  FaFigma,
-  FaCss3Alt,
-  FaTachometerAlt,
-  FaCodeBranch,
-  FaUniversalAccess,
+  FaMobileAlt,
 } from "react-icons/fa";
-
-const skills = [
-  {
-    name: "HTML5 & CSS3/SCSS",
-    description: "Proficient in crafting well-structured and styled web pages.",
-    icon: FaHtml5,
-  },
-  {
-    name: "JavaScript(ES6+)",
-    description: "Strong knowledge of JavaScript and its modern ES6+ features.",
-    icon: FaJsSquare,
-  },
-  {
-    name: "React",
-    description: "Proficient in building dynamic user interfaces using React.",
-    icon: FaReact,
-  },
-  {
-    name: "TypeScript",
-    description: "Experience with TypeScript for static typing in JavaScript projects.",
-    icon: FaCodeBranch,
-  },
-  {
-    name: "Responsive Web Design",
-    description: "Expertise in creating mobile-first, adaptive layouts.",
-    icon: FaMobileAlt,
-  },
-  {
-    name: "Version Control & Git",
-    description: "Proficient in using Git for version control.",
-    icon: FaGitAlt,
-  },
-  {
-    name: "Debugging",
-    description: "Skilled in diagnosing and resolving issues efficiently.",
-    icon: FaBug,
-  },
-  {
-    name: "Cross-Browser Compatibility",
-    description: "Ensuring flawless function across browsers and devices.",
-    icon: FaGlobe,
-  },
-  {
-    name: "Development Tools",
-    description: "Proficient in using Visual Studio Code and WebStorm.",
-    icon: FaCode,
-  },
-  {
-    name: "Task Runners & Module Bundlers",
-    description: "Familiarity with Gulp and Webpack.",
-    icon: FaTools,
-  },
-  {
-    name: "Back-End Technologies",
-    description: "Basic knowledge of Node.js.",
-    icon: FaNodeJs,
-  },
-  {
-    name: "APIs & AJAX",
-    description: "Experience with RESTful APIs and AJAX.",
-    icon: FaNetworkWired,
-  },
-  {
-    name: "Bootstrap",
-    description:
-      "Experience with the Bootstrap framework for responsive design.",
-    icon: FaBootstrap,
-  },
-  {
-    name: "jQuery",
-    description: "Experience with jQuery library for DOM manipulation.",
-    icon: FaJsSquare,
-  },
-  {
-    name: "Design Tools",
-    description: "Experience with design tools like Figma for prototyping.",
-    icon: FaFigma,
-  },
-  {
-    name: "CSS Frameworks (Tailwind, Bulma)",
-    description: "Knowledge of modern CSS frameworks like Tailwind and Bulma.",
-    icon: FaCss3Alt,
-  },
-  {
-    name: "Performance Optimization",
-    description: "Experience optimizing web applications for performance.",
-    icon: FaTachometerAlt,
-  },
-  {
-    name: "Accessibility (A11y)",
-    description: "Basic knowledge of web accessibility standards (WCAG).",
-    icon: FaUniversalAccess, 
-  } 
-];
 
 const Home = () => {
   const sectionRef = useRef(null);
@@ -143,7 +35,7 @@ const Home = () => {
             <p>
               As a front-end developer, I am passionate about crafting seamless
               and captivating web experiences. I specialize in using HTML, CSS,
-              JavaScript, TypeScript and React to develop dynamic, responsive applications.
+              JavaScript, TypeScript, and React to develop dynamic, responsive applications.
               With a keen eye for design and a commitment to usability, I ensure
               that every project I undertake is both visually appealing and
               highly functional.
