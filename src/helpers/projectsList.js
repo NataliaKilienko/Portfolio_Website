@@ -12,6 +12,8 @@ import project06Big from "./../img/projects/06-big.jpg";
 import project06Small from "./../img/projects/06-small.jpg";
 import project07Big from "./../img/projects/07-big.jpg";
 import project07Small from "./../img/projects/07-small.jpg";
+import project08Big from "./../img/projects/08-big.jpg";
+import project08Small from "./../img/projects/08-small.jpg";
 
 const projects = [
   {
@@ -20,6 +22,13 @@ const projects = [
     img: project04Small,
     imgBig: project04Big,
     gitHubLink: "https://github.com/NataliaKilienko/Cryptoplace",
+  },
+  {
+    title: "Shape sport app",
+    skills: "React.js, TypeScript, Material-UI, CSS3, Rapid API, Redux Toolkit, Single Page Applications, API Testing, TSX, REST API, Axios",
+    img: project08Small,
+    imgBig: project08Big,
+    gitHubLink: "https://github.com/NataliaKilienko/Shape_sport_app",
   },
   {
     title: "Solis Web Mockup",
