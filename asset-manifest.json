@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/Portfolio_Website/static/css/main.e232ef03.css",
-    "main.js": "/Portfolio_Website/static/js/main.f4de8263.js",
+    "main.js": "/Portfolio_Website/static/js/main.a984fe56.js",
     "static/js/787.8b11e2ca.chunk.js": "/Portfolio_Website/static/js/787.8b11e2ca.chunk.js",
     "static/media/01-big.jpg": "/Portfolio_Website/static/media/01-big.6a5477ad89239f77f7b7.jpg",
     "static/media/06-big.jpg": "/Portfolio_Website/static/media/06-big.2a03a994a8cfe74349d4.jpg",
@@ -9,8 +9,10 @@
     "static/media/07-big.jpg": "/Portfolio_Website/static/media/07-big.8642a3440771702cc30b.jpg",
     "static/media/header-bg-light.jpg": "/Portfolio_Website/static/media/header-bg-light.6ceed76942909d96025d.jpg",
     "static/media/02-big.jpg": "/Portfolio_Website/static/media/02-big.918874b5de82d818de7d.jpg",
+    "static/media/08-small.jpg": "/Portfolio_Website/static/media/08-small.0089b077ab75d1039a61.jpg",
     "static/media/05-big.jpg": "/Portfolio_Website/static/media/05-big.c293b0f3ddcd27151744.jpg",
     "static/media/06-small.jpg": "/Portfolio_Website/static/media/06-small.6162d3b814bee2b18930.jpg",
+    "static/media/08-big.jpg": "/Portfolio_Website/static/media/08-big.18888eab84620b4ef285.jpg",
     "static/media/header-bg-dark.png": "/Portfolio_Website/static/media/header-bg-dark.ada680a44837822a3f6e.png",
     "static/media/07-small.jpg": "/Portfolio_Website/static/media/07-small.53c888d0e8f13141f1fb.jpg",
     "static/media/04-big.jpg": "/Portfolio_Website/static/media/04-big.2e32dc7cff0cfc78aecf.jpg",
@@ -28,11 +30,11 @@
     "static/media/linkedIn.svg": "/Portfolio_Website/static/media/linkedIn.c05a2ae5b158581b0f27510e1d79e379.svg",
     "index.html": "/Portfolio_Website/index.html",
     "main.e232ef03.css.map": "/Portfolio_Website/static/css/main.e232ef03.css.map",
-    "main.f4de8263.js.map": "/Portfolio_Website/static/js/main.f4de8263.js.map",
+    "main.a984fe56.js.map": "/Portfolio_Website/static/js/main.a984fe56.js.map",
     "787.8b11e2ca.chunk.js.map": "/Portfolio_Website/static/js/787.8b11e2ca.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.e232ef03.css",
-    "static/js/main.f4de8263.js"
+    "static/js/main.a984fe56.js"
   ]
 }
