@@ -14,7 +14,7 @@ const Home = () => {
   const sectionRef = useRef(null);
 
   useEffect(() => {
-    AOS.init({ duration: 900 });
+    AOS.init({ duration: 600 });
   }, []);
 
   return (
@@ -33,12 +33,7 @@ const Home = () => {
               <FaMobileAlt className="about-me-icon" />
             </div>
             <p>
-              As a front-end developer, I am passionate about crafting seamless
-              and captivating web experiences. I specialize in using HTML, CSS,
-              JavaScript, TypeScript, and React to develop dynamic, responsive applications.
-              With a keen eye for design and a commitment to usability, I ensure
-              that every project I undertake is both visually appealing and
-              highly functional.
+            As a Front-End Engineer, I am dedicated to crafting seamless and engaging web experiences. I specialize in leveraging HTML, CSS, JavaScript, TypeScript, and React to build dynamic, responsive applications that are both visually stunning and highly functional. With a strong focus on clean, maintainable code and an eye for modern design principles, I continuously strive to elevate usability and performance in every project. My passion for innovation and commitment to quality drive me to deliver solutions that not only meet but exceed user expectations.
             </p>
           </section>
           <section className="content-list">
